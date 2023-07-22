@@ -1,0 +1,16 @@
+<h2>Create a place</h2>
+
+<form action="/places/create" method="POST">
+  <div class="mb-3">
+    <label for="name" class="form-label">Place Name</label>
+    <input type="text" class="form-control" id="name" name="name">
+  </div>
+  <div class="mb-3">
+    <label for="type">Choose a type:</label>
+    <select name="type">
+      <option value="Coffee Shop">Coffee Shop</option>
+      <option value="Bookstore">Bookstore</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
